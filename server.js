@@ -15,7 +15,7 @@ mongoose.connect('mongodb://localhost/track', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
-  useFindAndModify: false,
+  useFindAndModify: false
 });
 
 app.use(require('./routes/api.js'));
